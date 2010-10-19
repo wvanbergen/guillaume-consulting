@@ -1,0 +1,23 @@
+html body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  line-height: 18pt;
+  font-size: 11pt;
+}
+#content {
+  width: 600px;
+  margin: 100px auto 0px auto;
+}
+
+#content a {
+  text-decoration: none;
+}
+#content a:hover {
+  text-decoration: underline;
+}
+#factoids {
+  margin-top: 40px;
+  color: #aaa;
+  font-size: 90%;
+}
