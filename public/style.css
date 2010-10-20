@@ -3,11 +3,12 @@ html body {
   padding: 0;
   font-family: Helvetica, sans-serif;
   line-height: 18pt;
-  font-size: 11pt;
+  font-size: 14pt;
 }
 #content {
+  text-align: center;
   width: 600px;
-  margin: 100px auto 0px auto;
+  margin: 300px auto 0px auto;
 }
 
 #content a {
@@ -17,7 +18,9 @@ html body {
   text-decoration: underline;
 }
 #factoids {
-  margin-top: 40px;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
   color: #aaa;
   font-size: 90%;
 }
